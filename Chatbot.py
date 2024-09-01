@@ -13,7 +13,7 @@ with st.sidebar:
     if option == 'Ollama':
         model = st.selectbox(
             "which model to use?",
-            ("llama3.1", "llama3", "mistral", "phi3")
+            ("llama3.1", "llama3", "mistral", "phi3", "codellama")
         )
     elif option == 'Langchain':
         pass
